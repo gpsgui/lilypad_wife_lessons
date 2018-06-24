@@ -1,7 +1,12 @@
 /*  Aula 6 parte 1
  *   
  *  Assunto : "Monitor Serial" para VUSB : pegadinha do pen-drive
- *  Placa : Lilytiny
+ *  
+ *  Placa : Lilytiny (versão do lilypad com o attiny85)
+ *  
+ *  Objetivo: entender como funciona a implementação da emulação
+ *            de um teclado, que "serve" como substituta da comuni-
+ *            cação serial, ausente nessa placa
  */
 #include "DigiKeyboard.h"
 

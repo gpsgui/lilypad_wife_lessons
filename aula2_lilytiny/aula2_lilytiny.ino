@@ -1,15 +1,31 @@
 /*  Aula 2
  *   
  *  Assunto : Música e Buzzer 
+ *  
+ *  Placa : Lilytiny (versão do lilypad com Attiny85)
  * 
+ *  Objetivo: Mostrar como funciona um buzzer passivo e como
+ *            tocar notas musicais(e silêncios) com ele,
+ *            
+ *            
+ * Modelo pra tocar uma nota de frequencia 'freq', 
+ * durante 'tempo' milissegundos, em um buzzer ligado 
+ * no pino 'pino':
+ *  
+ *  tone(pino, freq, tempo);
+ *  delay(tempo);
  */
 const int buzz= 1;
 
 void setup() {
   // put your setup code here, to run once:
-pinMode(buzz, OUTPUT);
+  pinMode(buzz, OUTPUT);
 
- // tone(buzz, 132, 1000);
+  // TENTATIVA DE TOCAR DÓ-RÉ-MI-FÁ ABAIXO kkkkkkkk
+
+
+  
+  // tone(buzz, 132, 1000);
   
 //  delay (1000);
 //  

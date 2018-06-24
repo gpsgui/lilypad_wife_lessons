@@ -2,6 +2,11 @@
  *   
  *  Assunto : Estrutura de um programa arduino e Saídas Digitais 
  * 
+ *  Placa : Lilytiny (versão do lilypad com Attiny85)
+ * 
+ *  Objetivo :  estudar e brincar com a estrutura de um programa
+ *              em arduino (Wiring) e descobrir como funcionam saídas
+ *              digitais, utiliando um led RGB ÂNODO COMUM (! acende em 0 !)
  */
 
 const int verm = 0 , verd=1 , azul=2;
